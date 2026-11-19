@@ -11,8 +11,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .nav { min-height: 82px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(161, 189, 171, .17); }
 .brand { display: inline-flex; align-items: center; gap: 10px; font: 700 18px/1 'Space Grotesk', sans-serif; letter-spacing: -.04em; }
 .brand-dot { color: var(--green-deep); }
-.brand-mark { display: inline-flex; align-items: flex-end; gap: 3px; width: 23px; height: 22px; padding: 2px; border: 1px solid #789a84; border-radius: 6px; transform: skewY(-12deg); }
-.brand-mark span { display: block; width: 4px; border-radius: 3px; background: var(--green); }.brand-mark span:nth-child(1) { height: 7px; opacity: .6; }.brand-mark span:nth-child(2) { height: 13px; }.brand-mark span:nth-child(3) { height: 18px; }
+.brand-mark { display: block; width: 24px; height: 24px; flex-shrink: 0; }
 .nav-links { display: flex; gap: 31px; margin-left: 80px; color: var(--muted); font-size: 13px; }.nav-links a, .footer-links a { display: inline-flex; align-items: center; gap: 4px; transition: color .2s ease; }.nav-links a:hover, .footer-links a:hover, .text-link:hover { color: var(--green); }
 .nav-cta { display: inline-flex; align-items: center; gap: 5px; border: 1px solid #52685b; border-radius: 999px; padding: 10px 16px; color: var(--green); font-size: 13px; transition: background .2s, transform .2s; }.nav-cta:hover { background: rgba(180,232,199,.1); transform: translateY(-1px); }
 .hero { min-height: 665px; display: grid; grid-template-columns: .92fr 1.08fr; gap: 58px; align-items: center; padding: 66px 0 82px; }.hero-copy { padding-top: 8px; }.eyebrow { display: inline-flex; align-items: center; gap: 8px; color: var(--green); font: 500 11px/1 'DM Mono', monospace; letter-spacing: .08em; text-transform: uppercase; }.eyebrow-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green-deep); box-shadow: 0 0 0 4px rgba(139,220,167,.13); }
