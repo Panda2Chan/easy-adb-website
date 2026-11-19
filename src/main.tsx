@@ -4,6 +4,8 @@ import './styles.css'
 
 const github = 'https://github.com/Panda2Chan/easy-adb'
 const releases = `${github}/releases`
+const windowsDownload = `${github}/releases/latest/download/EasyADB-Setup-x64.exe`
+const macosDownload = `${github}/releases/latest/download/easy-adb-mac-universal.zip`
 
 function DeviceScene() {
   return <div className="device-scene" aria-label="Easy ADB 连接设备示意图">
@@ -53,7 +55,7 @@ function App() {
 
       <section id="workflow" className="workflow shell"><div className="workflow-head"><div><span className="section-index">02 / 03</span><h2>三步，开始安装。</h2></div><p>没有命令行，也不用记住 ADB 参数。</p></div><div className="steps"><div className="step"><span>01</span><strong>连接设备</strong><p>USB 插入，或在同一网络中输入设备地址。</p></div><ChevronRight className="step-arrow"/><div className="step"><span>02</span><strong>选择 APK</strong><p>拖入文件，或者粘贴一个 APK 下载直链。</p></div><ChevronRight className="step-arrow"/><div className="step"><span>03</span><strong>开始安装</strong><p>确认目标设备，等待安装完成。</p></div></div></section>
 
-      <section className="download-section shell"><div className="download-card"><div className="download-copy"><span className="section-index">03 / 03</span><h2>从你的电脑开始。</h2><p>Easy ADB 是开源的。下载一个适合你的版本，或者从 GitHub 查看每一行代码。</p><div className="download-actions"><a className="button button-primary" href={releases} target="_blank" rel="noreferrer">下载最新版本 <ArrowUpRight size={15}/></a><a className="text-link" href={github} target="_blank" rel="noreferrer">前往 GitHub <ArrowUpRight size={15}/></a></div></div><div className="version-note"><div className="version-label">当前提供</div><div className="version-row"><span>Windows</span><strong>x64 安装程序</strong></div><div className="version-row"><span>macOS</span><strong>Apple Silicon / Intel</strong></div><div className="version-foot"><Github size={14}/>版本和更新发布在 GitHub</div></div></div></section>
+      <section className="download-section shell"><div className="download-card"><div className="download-copy"><span className="section-index">03 / 03</span><h2>从你的电脑开始。</h2><p>Easy ADB 是开源的。下载一个适合你的版本，或者从 GitHub 查看每一行代码。</p><div className="download-actions"><a className="button button-primary" href={windowsDownload} target="_blank" rel="noreferrer">Windows <ArrowUpRight size={15}/></a><a className="button button-quiet" href={macosDownload} target="_blank" rel="noreferrer">macOS <ArrowUpRight size={15}/></a><a className="text-link" href={releases} target="_blank" rel="noreferrer">GitHub Releases <ArrowUpRight size={15}/></a></div></div><div className="version-note"><div className="version-label">当前提供</div><div className="version-row"><span>Windows</span><strong>x64 安装程序</strong></div><div className="version-row"><span>macOS</span><strong>Apple Silicon / Intel</strong></div><div className="version-foot"><Github size={14}/>版本和更新发布在 GitHub</div></div></div></section>
     </main>
 
     <footer className="footer shell"><a className="brand" href="#top"><span className="brand-mark"><span/><span/><span/></span><span>easy<span className="brand-dot">.</span>adb</span></a><span className="footer-copy">让 Android 安装，回到它该有的简单。</span><div className="footer-links"><a href={github} target="_blank" rel="noreferrer">GitHub</a><a href={github} target="_blank" rel="noreferrer">开源仓库</a><a href={releases} target="_blank" rel="noreferrer">下载</a></div></footer>
