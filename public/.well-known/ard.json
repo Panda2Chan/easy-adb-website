@@ -1,10 +1,15 @@
 {
   "name": "Easy ADB",
-  "description": "轻量 Android 设备连接与 APK 安装工具官网。",
+  "description": "Easy ADB 0.3.0 官方网站，提供 Windows 和 macOS 安装包、设备连接与安装包预检说明。",
   "url": "https://easyadb.panchan.top/",
   "resources": [
-    {"name": "Windows releases", "url": "https://github.com/Panda2Chan/easy-adb/releases"},
-    {"name": "Windows source", "url": "https://github.com/Panda2Chan/easy-adb"},
-    {"name": "macOS source", "url": "https://github.com/Panda2Chan/easy-adb-mac"}
+    {
+      "name": "Windows and macOS releases",
+      "url": "https://github.com/Panda2Chan/easy-adb/releases"
+    },
+    {
+      "name": "Public repository",
+      "url": "https://github.com/Panda2Chan/easy-adb"
+    }
   ]
 }

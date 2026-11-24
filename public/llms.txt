@@ -1,18 +1,18 @@
-# Easy ADB
+# Easy ADB v0.3.0
 
-Easy ADB is a lightweight desktop tool for connecting Android phones, TVs, and TV boxes over USB or Wi-Fi and installing APK files.
+Easy ADB connects a Windows PC or Mac to Android phones, TVs and TV boxes. Use USB, wireless pairing, mDNS discovery, or reconnect to one of the last five wireless devices.
 
-## Official links
+## Downloads and source
 
 - Website: https://easyadb.panchan.top/
-- Windows and releases: https://github.com/Panda2Chan/easy-adb/releases
-- Windows source: https://github.com/Panda2Chan/easy-adb
-- macOS source: https://github.com/Panda2Chan/easy-adb-mac
+- Windows x64: https://github.com/Panda2Chan/easy-adb/releases/latest/download/EasyADB-Setup-x64.exe
+- macOS Universal: https://github.com/Panda2Chan/easy-adb/releases/latest/download/easy-adb-mac-universal.zip
+- Releases and installation notes: https://github.com/Panda2Chan/easy-adb/releases
+- Public repository: https://github.com/Panda2Chan/easy-adb
 
 ## Features
 
-- USB and Wi-Fi ADB connections
-- Wireless pairing with a pairing code
-- Local APK drag-and-drop installation
-- APK installation from an HTTP or HTTPS download link
-- Windows and macOS desktop builds
+- Inspect APK metadata, Android API and CPU compatibility before installing local files or HTTP(S) direct links.
+- Install supported APKS and APK-only XAPK bundles. XAPK bundles with OBB expansion data are unsupported.
+- Inspect installed packages and confirm removal of user apps.
+- Read Chinese installation diagnostics, send up to 512 printable ASCII characters to a focused input, and check for updates.
