@@ -28,7 +28,7 @@ function DeviceScene() {
 function App() {
   return <div className="site">
     <header className="nav shell">
-      <a className="brand" href="#top" aria-label="Easy ADB 首页"><img className="brand-mark" src="/easy-adb-mark.svg" alt="" aria-hidden="true" /><span>easy<span className="brand-dot">.</span>adb</span></a>
+      <a className="brand" href="#top" aria-label="Easy ADB 首页"><img className="brand-mark" src="/easy-adb-icon-512.png" alt="" aria-hidden="true" /><span>easy<span className="brand-dot">.</span>adb</span></a>
       <nav className="nav-links"><a href="#features">能力</a><a href="#workflow">怎么用</a><a href={github} target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={14}/></a></nav>
       <a className="nav-cta" href={releases} target="_blank" rel="noreferrer">下载 <ArrowUpRight size={15}/></a>
     </header>
@@ -58,7 +58,7 @@ function App() {
       <section className="download-section shell"><div className="download-card"><div className="download-copy"><span className="section-index">03 / 03</span><h2>从你的电脑开始。</h2><p>Easy ADB 是开源的。下载一个适合你的版本，或者从 GitHub 查看每一行代码。</p><div className="download-actions"><a className="button button-primary" href={windowsDownload} target="_blank" rel="noreferrer">Windows <ArrowUpRight size={15}/></a><a className="button button-quiet" href={macosDownload} target="_blank" rel="noreferrer">macOS <ArrowUpRight size={15}/></a><a className="text-link" href={releases} target="_blank" rel="noreferrer">GitHub Releases <ArrowUpRight size={15}/></a></div></div><div className="version-note"><div className="version-label">当前提供</div><div className="version-row"><span>Windows</span><strong>x64 安装程序</strong></div><div className="version-row"><span>macOS</span><strong>Apple Silicon / Intel</strong></div><div className="version-foot"><Github size={14}/>版本和更新发布在 GitHub</div></div></div></section>
     </main>
 
-    <footer className="footer shell"><a className="brand" href="#top"><img className="brand-mark" src="/easy-adb-mark.svg" alt="" aria-hidden="true" /><span>easy<span className="brand-dot">.</span>adb</span></a><span className="footer-copy">让 Android 安装，回到它该有的简单。</span><div className="footer-links"><a href={github} target="_blank" rel="noreferrer">GitHub</a><a href={github} target="_blank" rel="noreferrer">开源仓库</a><a href={releases} target="_blank" rel="noreferrer">下载</a></div></footer>
+    <footer className="footer shell"><a className="brand" href="#top"><img className="brand-mark" src="/easy-adb-icon-512.png" alt="" aria-hidden="true" /><span>easy<span className="brand-dot">.</span>adb</span></a><span className="footer-copy">让 Android 安装，回到它该有的简单。</span><div className="footer-links"><a href={github} target="_blank" rel="noreferrer">GitHub</a><a href={github} target="_blank" rel="noreferrer">开源仓库</a><a href={releases} target="_blank" rel="noreferrer">下载</a></div></footer>
   </div>
 }
 
